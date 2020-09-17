@@ -1,6 +1,7 @@
 * {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin: 0;
+    padding: 0;
     display: block;
     box-sizing: border-box;
     z-index: 500;
@@ -13,7 +14,7 @@ a {
 }
 body {
     background-color: #dddddd;
-    height: 100%;
+    min-height: 100vh;
 }
 header {
     background: #c55e7d;
@@ -176,7 +177,8 @@ footer{
     background-color: #c55e7d;
     bottom: 0;
     width: 100%;
-    height: auto;
+    margin-top:75px;
+    height: 75px;
     position: sticky;
 
 }
