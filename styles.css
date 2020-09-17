@@ -1,0 +1,182 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    display: block;
+    box-sizing: border-box;
+    z-index: 500;
+}
+.mySlides {display: none;}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+body {
+    background-color: #dddddd;
+    height: 100%;
+}
+header {
+    background: #c55e7d;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    position: sticky;
+    top:0;
+    z-index: 600;
+
+}
+
+header div{
+    display: inline;
+}
+header div .nombre{
+    text-shadow: 2px 1px black;
+    color: white;
+}
+
+header div div h3 {
+    font-size: 20px;
+    margin-left: 25px;
+    text-align: left;
+    padding-bottom: 5px;
+    border-bottom: 2px solid white;
+    font-weight: 100;
+    color: white;
+}
+
+header div div h5{
+    padding-top: 5px;
+    font-size: 15px;
+    text-align: center;
+    margin-left: 25px;
+    font-weight: 500;
+}
+
+header ul {
+    display: flex;
+    list-style-type: none;
+    margin-right: 25px;
+}
+header ul li {
+    padding: 5px;
+    margin: 5px ;
+    text-decoration: none;
+}
+header ul #info{
+    display: none;
+}
+
+header ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    text-shadow: 2px 1px black;
+    font-weight: 500;
+}
+
+header ul li.boton {
+    background-color:#ceb4af;
+    border-radius: 5px;
+    padding: 5px 15px;
+}
+header ul li a.link:hover{
+    text-decoration-line: underline;
+}
+
+header ul li a.buton:hover{
+    text-decoration-line: none;
+}
+
+header ul li.boton:hover{
+    opacity: 0.9;
+}
+.carrera {
+    padding:0px 100px 100px 100px ;
+    size: auto ;
+    background-color: #dddddd;
+}
+
+.carrera h2 {
+    text-align: left;
+    font-size: 35px;
+    padding-left: 20%;
+    margin-bottom: 15px;
+}
+.carrera img{
+    float: right;
+    height: 250px;
+    margin: 15px 50px 15px 50px;
+}
+
+.carrera p {
+ text-align:justify;
+ font-size: 20px;
+ margin: 10px ;
+ color: black;
+}
+
+.carrera a{
+    text-align:justify;
+    font-size: 15px;
+    margin: 10px ;
+    color: black;
+    display: inline;
+    font-style: italic;
+    }
+
+.mid-break{
+    height: 75px;
+}
+.clear{
+    display: none;
+}
+
+
+.info {
+    width: 90%;
+    margin: auto;
+}
+
+.info h3{
+    padding:20px 30px 20px 30px;
+    text-align:center;
+    font-size: 35px;
+}
+
+.info h4 {
+    font-size: 20px;
+    text-align: center;
+    color: black;
+}
+
+.info h4 a{
+    font-size: 20px;
+    text-align: center;
+    color: black;
+}
+
+.mapa {
+    width: 50%;
+    margin: 50px auto 20px auto;
+}
+
+
+.Subscribe {
+    background-color: #c55e7d;
+    font-size: 10px;
+    padding: 5px;
+    border-radius: 10px;
+    width: fit-content;
+    margin: 20px 60px;
+    float: right;
+}
+
+footer{
+    background-color: #c55e7d;
+    bottom: 0;
+    width: 100%;
+    height: auto;
+    position: sticky;
+
+}
