@@ -125,7 +125,10 @@ header ul li.boton:hover{
     display: inline;
     font-style: italic;
     }
-
+.carrera h5 {
+    font-size: 17px;
+    text-align: end;
+}
 .mid-break{
     height: 75px;
 }
@@ -177,8 +180,8 @@ footer{
     background-color: #c55e7d;
     bottom: 0;
     width: 100%;
-    margin-top:75px;
-    height: 75px;
+    margin-top:100px;
+    height: 60px;
     position: sticky;
     align-items: center;
     display: flex;
@@ -193,7 +196,7 @@ footer img {
 footer div.container {
     display: flex;
     width: 100%;
-    justify-content: space-between;
+    justify-content: flex-end;
     margin: 20px;
 
 }
@@ -211,8 +214,4 @@ footer a {
     display: flex;
     text-align: center;
     align-items:center;
-}
-
-footer h6 {
-    font-size: 15px;
 }
