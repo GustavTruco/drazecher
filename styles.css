@@ -180,5 +180,39 @@ footer{
     margin-top:75px;
     height: 75px;
     position: sticky;
+    align-items: center;
+    display: flex;
+}
 
+
+footer img {
+    height: 40px;
+    margin: 0 5px;
+}
+
+footer div.container {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin: 20px;
+
+}
+
+footer div.container div{
+    display: flex;
+    justify-content:space-evenly;
+    text-align: center;
+    align-items: center;
+    color: #dddddd;
+    text-shadow: 2px 1px black;
+}
+
+footer a {
+    display: flex;
+    text-align: center;
+    align-items:center;
+}
+
+footer h6 {
+    font-size: 15px;
 }
