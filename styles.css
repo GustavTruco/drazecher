@@ -137,31 +137,24 @@ header ul li.boton:hover{
 }
 
 
-.info {
+.lugares {
     width: 90%;
     margin: auto;
 }
-
-.info h3{
-    padding:20px 30px 20px 30px;
-    text-align:center;
-    font-size: 35px;
+.lugares p{
+    color:black;
+    font-size: 17px;
 }
 
-.info h4 {
-    font-size: 20px;
-    text-align: center;
+.lugares a{
     color: black;
+    display: inline;
 }
-
-.info h4 a{
-    font-size: 20px;
-    text-align: center;
-    color: black;
+.lugares img{
+    margin: 0 auto 30px 25px;
 }
-
 .mapa {
-    width: 50%;
+    width: 100%;
     margin: 50px auto 20px auto;
 }
 
